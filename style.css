@@ -59,3 +59,31 @@ a{
     border-radius: 8px;
     border: none;
 }
+
+.random-header{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px 0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+}
+
+.card img{
+    display: flex;   
+    flex-direction: column;
+    width: 220px;
+    height: auto;
+}
+
+.card{
+    width: 250px;
+
+}
