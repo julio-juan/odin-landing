@@ -1,0 +1,42 @@
+/*awesome website style*/
+
+body{
+    margin: 0;   
+}
+.top {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    color: #f9faf8;    
+    font-size: 48px;
+    font-weight: bolder;    
+}
+
+.container {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
