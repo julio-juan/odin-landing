@@ -108,3 +108,16 @@ a{
 .quote-text{
     width: 75%;
 }
+
+.call{
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    background-color: #3882f6;
+    height: 80px;
+    margin: 70px 85px;    
+}
+
+.call-container{
+    
+}
