@@ -105,6 +105,11 @@ a{
     text-align: end;
 }
 
+.quote .quote-body{
+    display: flex;
+    justify-content: center;
+}
+
 .quote-text{
     width: 75%;
 }
@@ -115,9 +120,30 @@ a{
     justify-content: space-around;
     background-color: #3882f6;
     height: 80px;
-    margin: 70px 85px;    
+    margin: 70px 85px;
+    color: #e5e7eb; 
 }
 
-.call-container{
-    
+.call-button button{
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #f9faf8;
+    color: #e5e7eb;
+    font-weight: 200px;
+    border-radius: 8px;
+    padding: 5px 25px;
+}
+
+.call .call-container .call-head{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
